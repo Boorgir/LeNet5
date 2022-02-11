@@ -51,7 +51,7 @@ On ne travaille pas tout de suite sur la base de données MNIST mais on va plut�
 
 On va créer pour chacune de ces matrices des tableaux à 1 dimension, donc chaque matrice sera de dimension 32x32, 6x28x28, 6x14x14 et 6x5x5.
 
-#### Layer 2
+### Layer 2
 
 C'est une convolution avec 6 noyaux de taille 5x5. Le vecteur résultant est donc de taille 6x28x28.
 
