@@ -17,7 +17,7 @@ L'architecture de notre modèle sera la suivante :
 
 ### Quel IDE?
 
-Jupyter-lab est une option très satisfaisante.
+Jupyter-lab
 
 ## Partie 1 : Prise en main de CUDA : multiplication de matrices
 
@@ -31,9 +31,6 @@ Les fonctions créées pour les opérations sur CPU sont : création d'une matri
 
 Les fonctions créées pour les opérations sur GPU sont : addition de 2 matrices et multiplication de 2 matrices
 
-### Complexité et temps de calcul
-
-Nous n'avons pas mesuré les temps de calculs, mais ceux-ci sont plus rapides pour les opéartions faites sur GPU quand cela est possible.
 
 ### Paramétrage du programme
 
@@ -42,7 +39,7 @@ Pour pouvoir entrer en argument du programme les dimensions de la matrice, donc 
 int x = atoi(argv[i])
 ```
 
-## Partie 2 : Premières coucches du réseau de neurone : Conv2D et subsampling
+## Partie 2 : Premières couches du réseau de neurone : Conv2D et subsampling
 
 ### Layer 1
 
@@ -117,8 +114,6 @@ C'est compréhensible cependant, puisque ce 5 est assez proche d'un 6.
 
 Nous avons réussi quelques uns des objectifs du TP, à savoir :
 - Apprendre à utiliser CUDA,
-- ~~Etudier la complexité de vos algorithmes et l'accélération obtenue sur GPU par rapport à une éxécution sur CPU,~~
-- ~~Observer les limites de l'utilisation d'un GPU,~~
 - Implémenter "from scratch" un CNN : juste la partie inférence et non l'entrainement,
 - Exporter des données depuis un notebook python et les réimporter dans un projet cuda,
 - Faire un suivi de votre projet et du versionning à l'outil git (à peu près).
